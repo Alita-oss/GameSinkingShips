@@ -185,9 +185,10 @@ namespace _1_projekt_lode_pole2d
             {
                 for (int s = 0; s < pole.GetLength(1); s++)
                 {
+                    // tyhle dvě jsou na skrytí lodí
                     // char kryti = (pole[r, s] == 'O' ? '~' : pole[r, s]);
                     // Console.Write(kryti + " ");
-                    Console.Write(pole[r, s] + " ");
+                    Console.Write(pole[r, s] + " "); //lodě jdou vidět
                 }
                 Console.WriteLine();
             }
